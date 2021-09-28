@@ -9,7 +9,7 @@ a{
 
 body{
     margin: 0;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
 }
 
 button {
@@ -128,7 +128,7 @@ header p{
 }
 
 .tshirt{
-    background-color: black;
+    background-color:lightslategrey;
     height: 500px;
     width: 100%;
     margin-top: 100px;
