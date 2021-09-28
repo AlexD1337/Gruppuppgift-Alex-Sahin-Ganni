@@ -9,7 +9,6 @@ a{
 
 body{
     margin: 0;
-   background-color: bisque;
 }
 
 button {
@@ -71,6 +70,10 @@ header p{
     grid-column-start: 0;
 }
 
+.test{
+    float:right;
+}
+
 .dropdown{
     display: none;
     position: absolute;
@@ -127,7 +130,7 @@ header p{
     color: black;
 }
 
-.tshirt{
+.men-kat{
     background-color: black;
     height: 500px;
     width: 100%;
@@ -136,8 +139,48 @@ header p{
     color: white;
 }
 
-.tshirt p{
-    color: black;
+.men-kat p{
+    color: white;
+}
+
+.kvinnor{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.kvinnor p{
+    color: white;
+}
+
+.barn{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.barn p{
+    color: white;
+}
+
+
+.accs-kat{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.accs-kat{
+    color: white;
 }
 
 .flex-container{
@@ -146,8 +189,33 @@ header p{
     height: 450px;
 }
 
-.box1, .box2, .box3, .box4, .box5{
-    width: 19%;
-    background-color: white;
+.box1{
+    width: calc(300%/7);
     margin: 1%;
+}
+
+.box2, .box3, .box4, .box5{
+    width: calc(100%/7);
+    margin: 1%;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    min-height: 300px;
+}
+
+
+
+.footer-section1, .footer-section2, .footer-section3, .footer-section4{
+        display: flex;
+        width: 24%;
+        margin: 1%;
+        flex-direction: column;
+} 
+
+.text1{
+    height: 25%;
+    color:white
 }
