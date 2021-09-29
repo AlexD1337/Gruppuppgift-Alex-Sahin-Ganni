@@ -44,6 +44,7 @@ header p{
     background-color:#2554C7;
     min-height: 470px;
 }
+
 .box1,.box2,.box3,.box4,.box5{
     height: 95%;
     width: 20%;
@@ -62,6 +63,22 @@ header p{
 }
 
 .tshirt p{
+    margin-top: -5px;
+    color: black;
+    font-size: 150%;
+}
+
+.byxor{
+    background-color: #fff;
+    background-color:#2554C7;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.byxor p{
     margin-top: -5px;
     color: black;
     font-size: 150%;
@@ -92,4 +109,29 @@ footer {
     background-color: #0000CD;
     display: flex;
     min-height: 300px;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .box1,.box2,.box3 {
+        width: 32%;
+    }
+
+    .box5,.box4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:830px) {
+    
+    .frakt{
+        font-size: 20px;
+    }
+    .box1,.box2 {
+        width: 49%;
+    }
+
+    .box5,.box4, .box3{
+        display: none;
+    }
 }
