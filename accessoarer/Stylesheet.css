@@ -151,6 +151,10 @@ header p{
     color: black;
 }
 
+/*
+MAIN CONTENT
+*/
+
 .bags-kat{
     background-color: navy;
     min-height: 350px;
@@ -168,7 +172,7 @@ header p{
 .hats{
     background-color: navy;
     min-height: 350px;
-    max-height: 500px;
+    max-height: 575px;
     width: 100%;
     margin-top: 100px;
     text-align: center;
@@ -182,7 +186,7 @@ header p{
 .watches{
     background-color: navy;
     min-height: 350px;
-    max-height: 500px;
+    max-height: 575px;
     width: 100%;
     margin-top: 100px;
     text-align: center;
@@ -197,7 +201,7 @@ header p{
 .accs-kat{
     background-color: navy;
     min-height: 350px;
-    max-height: 500px;
+    max-height: 575px;
     width: 100%;
     margin-top: 100px;
     text-align: center;
@@ -381,7 +385,6 @@ footer {
     }
     
     .Searchbar{
-        padding-right: 5%;
         grid-column: 5/9;
         align-self: center;
     }
@@ -406,24 +409,36 @@ footer {
     .accs{
         grid-column: 9/11;
     }
+
+
+/*
+MAIN CONTENT
+*/
+
+    .box4, .box5{
+        display: none;
+}
+
 }
 
 @media (max-width: 767px){
+    
     .frakt{
         display: none;
     }
 
     .cart{
         grid-row: 1/2;
-        grid-column: 6/7;
+        grid-column: 5/7;
         grid-column-start: 0;
+        width: 100%;
     }
     
     .login{
-        grid-column: 7/8 ;
+        grid-column: 7/9;
         border-radius: 50%;
-        width: 50px;
-        background-image: url("img/Profile.png") ;
+        width: 100%;
+        background-image: url("img/Profile.png");
         grid-column-start: 0;
     }
     
@@ -446,6 +461,17 @@ footer {
         text-align: center;
     }
     
+    .navbar p{
+        
+        font-size: 12px;
+    }
+
+    .navbar-accs p{
+        
+        font-size: 12px;
+    }
+
+
     .men{
         grid-column: 1/4;
         
@@ -461,5 +487,21 @@ footer {
     
     .accs{
         grid-column: 10/13;
+    }
+
+    /*
+MAIN CONTENT
+*/
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .box2, .box3,.box4, .box5{
+        display: none;
+    }
+    .footer{
+    display: none;
     }
 }
