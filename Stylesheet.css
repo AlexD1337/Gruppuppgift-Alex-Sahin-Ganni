@@ -123,6 +123,10 @@ header p{
     padding-top: 25px;
 }
 
+.mark {
+    background-color: black;
+}
+
 .navbar:hover, .navbar:hover p{
     background-color: rgb(255, 255, 255);
     color: black;
