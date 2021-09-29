@@ -11,10 +11,6 @@ body{
     margin: 0;
 }
 
-h1{
-    margin: 5px;
-}
-
 button {
     padding: 5px; 
     box-sizing: border-box;
@@ -28,7 +24,8 @@ input {
 }
 
 header{
-    background-color: lightcyan;
+    background-color: pink;
+
 }
 header p{
     color: white;
@@ -52,13 +49,10 @@ header p{
     grid-column: 6/8;
     text-align: center;
     font-size: 25px;
-    background-color: navy;
-    
 
 }
 .frakt p{
-    color: white;
-    margin: 10px;
+    color: rgb(245, 245, 102);
 
 }
 .cart{
@@ -121,34 +115,21 @@ header p{
 
 .navbar{
     height: 44px;
-    background-color: black;
+    text-align:center;
     
 }
 
 .navbar p{
     padding-top: 25px;
-    font-weight: bolder;
-}
-
-.navbar-accs{
-    background-color: navy;
-    height: 44px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-.navbar-accs p{
-    padding-top: 25px;
-    color: white;
 }
 
 .navbar:hover, .navbar:hover p{
-    background-color: navy;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
-.bags-kat{
-    background-color: navy;
+.men-kat{
+    background-color: pink;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -156,12 +137,12 @@ header p{
     color: white;
 }
 
-.bags-kat p{
+.men-kat p{
     color: white;
 }
 
-.hats{
-    background-color: navy;
+.kvinnor{
+    background-color: pink;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -169,12 +150,12 @@ header p{
     color: white;
 }
 
-.hats p{
+.kvinnor p{
     color: white;
 }
 
-.watches{
-    background-color: navy;
+.barn{
+    background-color:pink;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -182,13 +163,13 @@ header p{
     color: white;
 }
 
-.watches p{
+.barn p{
     color: white;
 }
 
 
 .accs-kat{
-    background-color: navy;
+    background-color: black;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -197,7 +178,6 @@ header p{
 }
 
 .accs-kat{
-    background-color: navy;
     color: white;
 }
 
@@ -206,21 +186,28 @@ header p{
     width: 100%;
     height: 450px;
 }
-/*
-.box1{
-    width: calc(300%/7);
-    margin: 1%;
-}
-*/
 
-.box1, .box2, .box3, .box4, .box5{
-    width: calc(300%/7);
+.box1{
+    width: calc(100%/5);
     margin: 1%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 70%;
+}
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p{
+   color: black; 
+}
+
+.box2, .box3, .box4, .box5{
+    width: calc(100%/5);
+    margin: 1%;
+    height: 70%;
+    background-color: aliceblue;
 }
 
 footer {
     margin-top: 100px;
-    background-color: lightcyan;
+    background-color: black;
     display: flex;
     min-height: 300px;
 }
@@ -236,12 +223,7 @@ footer {
 
 .text1{
     height: 25%;
-    display: flex;
     color:white;
     font-weight: bold;
     font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: navy;
-    margin: 2%;
 }
