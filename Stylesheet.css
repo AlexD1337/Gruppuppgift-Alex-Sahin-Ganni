@@ -6,7 +6,11 @@ a{
     color:inherit;
     text-decoration: none;
 }
-
+h1{
+    font-size: 20px;
+    color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
 body{
     margin: 0;
 }
@@ -24,7 +28,7 @@ input {
 }
 
 header{
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 124, 1);
 
 }
 header p{
@@ -52,7 +56,8 @@ header p{
 
 }
 .frakt p{
-    color: rgb(245, 245, 102);
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
 
 }
 .cart{
@@ -84,6 +89,9 @@ header p{
 .logo{
    grid-row: 1/4;
    grid-column: 1/3;
+   border: white;
+   border-style:double;
+   border-color: teal;
 }
 
 .Searchbar{
@@ -124,8 +132,7 @@ header p{
 }
 
 .mark {
-    background-color: black;
-}
+    background-color: black }
 
 .navbar:hover, .navbar:hover p{
     background-color: rgb(255, 255, 255);
@@ -133,7 +140,7 @@ header p{
 }
 
 .men-kat{
-    background-color: black;
+    background-color: #2554C7;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -142,11 +149,12 @@ header p{
 }
 
 .men-kat p{
-    color: white;
-}
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 15px; }
 
 .kvinnor{
-    background-color: black;
+    background-color: pink;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -159,7 +167,7 @@ header p{
 }
 
 .barn{
-    background-color: black;
+    background-color: rgb(126, 172, 34);
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -173,7 +181,7 @@ header p{
 
 
 .accs-kat{
-    background-color: black;
+    background-color: navy;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -203,7 +211,7 @@ header p{
 
 footer {
     margin-top: 100px;
-    background-color: black;
+    background-color:rgb(255, 124, 1);
     display: flex;
     min-height: 300px;
 }
