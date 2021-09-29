@@ -207,6 +207,7 @@ header p{
 .box2, .box3, .box4, .box5{
     width: calc(100%/7);
     margin: 1%;
+    
 }
 
 footer {
