@@ -130,7 +130,7 @@ div {
     max-height: inherit;
 }
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:960px) {
     
     .box1,.box2,.box3 {
         width: 32%;
@@ -141,7 +141,7 @@ div {
     }
 }
 
-@media screen and (max-width:810px) {
+@media screen and (max-width:768px) {
     
     .frakt{
         font-size: 20px;
