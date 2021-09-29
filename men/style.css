@@ -1,3 +1,19 @@
+p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+body{
+
+    background-color:#FFFFFF;
+}
+
+h1{
+    font-size: 25px;
+    color: black;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
 .fraktmen{
     grid-row: 1/2;
     grid-column: 6/8;
@@ -7,11 +23,16 @@
 }
 .fraktmen p{
     color:lightblue;
+    font-size: 25px;
 
 }
+.imgs{
 
+    width: 100%;
+    height: 80%;
+}
 header{
-    background-color:blue;
+    background-color: #0000CD;
 
 }
 header p{
@@ -19,9 +40,57 @@ header p{
     font-weight: bold;
 }
 
+.flex-container{
+    background-color: lightblue;
+    background-color:lightblue;
+    min-height: 470px;
+}
+.box1,.box2,.box3,.box4,.box5{
+    height: 95%;
+    width: 20%;
+    background-color:lightblue;
+    margin-top: -10px;
+}
+
+.tshirt{
+    background-color: lightblue;
+    background-color: lightblue;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.tshirt p{
+    margin-top: -5px;
+    color: black;
+    font-size: 150%;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    height: 95%;
+    width: 20%;
+    background-color:lightgrey;
+    margin-top: -10px;
+    
+}
+
+.box1 p,.box2 p,.box3 p,.box4 p,.box5 p {
+ color: black;
+ font-size: 20px; 
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+
 footer {
     margin-top: 100px;
-    background-color: blue;
+    background-color: #0000CD;
     display: flex;
     min-height: 300px;
 }
