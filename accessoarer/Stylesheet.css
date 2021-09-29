@@ -11,6 +11,10 @@ body{
     margin: 0;
 }
 
+h1{
+    margin: 5px;
+}
+
 button {
     padding: 5px; 
     box-sizing: border-box;
@@ -48,10 +52,13 @@ header p{
     grid-column: 6/8;
     text-align: center;
     font-size: 25px;
+    background-color: navy;
+    
 
 }
 .frakt p{
-    color: black;
+    color: white;
+    margin: 10px;
 
 }
 .cart{
@@ -114,19 +121,20 @@ header p{
 
 .navbar{
     height: 44px;
-    text-align:center;
     background-color: black;
     
 }
 
 .navbar p{
     padding-top: 25px;
+    font-weight: bolder;
 }
 
 .navbar-accs{
     background-color: navy;
     height: 44px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .navbar-accs p{
@@ -228,7 +236,12 @@ footer {
 
 .text1{
     height: 25%;
-    color:black;
+    display: flex;
+    color:white;
     font-weight: bold;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    margin: 2%;
 }
