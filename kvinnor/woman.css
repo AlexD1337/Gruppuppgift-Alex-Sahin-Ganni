@@ -28,7 +28,7 @@ header{
 
 }
 header p{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .Grid-container {
@@ -52,7 +52,7 @@ header p{
 
 }
 .frakt p{
-    color: rgb(245, 245, 102);
+    color: rgb(0, 0, 0);
 
 }
 .cart{
@@ -66,7 +66,7 @@ header p{
     grid-column: 12/13 ;
     border-radius: 50%;
     width: 50px;
-    background-image: url("img/Profile.png") ;
+    background-image: url("../img/Profile.png") ;
     grid-column-start: 0;
 }
 
@@ -121,6 +121,10 @@ header p{
 
 .navbar p{
     padding-top: 25px;
+    color: black;
+}
+.current{
+    background-color: white;
 }
 
 .navbar:hover, .navbar:hover p{
@@ -226,4 +230,28 @@ footer {
     color:white;
     font-weight: bold;
     font-size: 20px;
+}
+@media screen and (max-width:1200px) {
+    
+    .box1,.box2,.box3 {
+        width: 32%;
+    }
+
+    .box5,.box4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:830px) {
+    
+    .frakt{
+        font-size: 20px;
+    }
+    .box1,.box2 {
+        width: 49%;
+    }
+
+    .box5,.box4, .box3{
+        display: none;
+    }
 }
